@@ -58,7 +58,7 @@
               - Нека да видим как работи SQL-а в Snowflake
             </td>
         </tr>
-        <!-- <tr>
+        <tr>
             <td>
                 <code>среща 2</code>
                 <br>
@@ -72,7 +72,7 @@
             <td>
             </td>
         </tr>
-        <tr>
+        <!-- <tr>
             <td>
                 <code>среща 3</code>
                 <br>
