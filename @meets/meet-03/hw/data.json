@@ -1,0 +1,150 @@
+{
+"zooName": "Cosmic Critters Galactic Zoo",
+"location": "Space Station Delta-7, Sector Gamma-9",
+"establishedDate": "2077-01-01",
+"director": {
+    "name": "Zorp Glorbax",
+    "species": "Xylosian"
+},
+"habitats": [
+    {
+    "id": "H001",
+    "name": "Crystal Caves",
+    "environmentType": "Subterranean",
+    "sizeSqMeters": 1500,
+    "safetyRating": 4.5,
+    "features": ["Luminescent Flora", "Geothermal Vents", "Echo Chambers"],
+    "currentTempCelsius": 15
+    },
+    {
+    "id": "H002",
+    "name": "Azure Aquarium",
+    "environmentType": "Aquatic",
+    "sizeSqMeters": 3000,
+    "safetyRating": 4.8,
+    "features": ["Coral Reef Simulation", "High-Pressure Zone", "Bioluminescent Plankton"],
+    "currentTempCelsius": 22
+    },
+    {
+    "id": "H003",
+    "name": "Floating Forest",
+    "environmentType": "Zero-G Jungle",
+    "sizeSqMeters": 2500,
+    "safetyRating": 4.2,
+    "features": ["Magnetic Vines", "Floating Islands", "Simulated Rain"],
+    "currentTempCelsius": 28
+    },
+    {
+    "id": "H004",
+    "name": "Frozen Tundra",
+    "environmentType": "Arctic",
+    "sizeSqMeters": 1800,
+    "safetyRating": 4.0,
+    "features": ["Ice Caves", "Simulated Aurora"],
+    "currentTempCelsius": -10
+    }
+],
+"creatures": [
+    {
+    "id": "C001",
+    "name": "Gloob",
+    "species": "Gelatinoid",
+    "originPlanet": "Xylar",
+    "diet": "Photosynthesis",
+    "temperament": "Docile",
+    "habitatId": "H001",
+    "acquisitionDate": "2077-01-15",
+    "specialAbilities": null,
+    "healthStatus": { "lastCheckup": "2077-03-01", "status": "Excellent" }
+    },
+    {
+    "id": "C002",
+    "name": "Finblade",
+    "species": "Aqua-Predator",
+    "originPlanet": "Neptunia Prime",
+    "diet": "Carnivore",
+    "temperament": "Aggressive",
+    "habitatId": "H002",
+    "acquisitionDate": "2077-02-01",
+    "specialAbilities": ["Sonar Burst", "Camouflage"],
+    "healthStatus": { "lastCheckup": "2077-03-10", "status": "Good" }
+    },
+    {
+    "id": "C003",
+    "name": "Sky-Wisp",
+    "species": "Aether Flyer",
+    "originPlanet": "Cirrus V",
+    "diet": "Energy Absorption",
+    "temperament": "Shy",
+    "habitatId": "H003",
+    "acquisitionDate": "2077-02-20",
+    "specialAbilities": ["Invisibility", "Phase Shift"],
+    "healthStatus": { "lastCheckup": "2077-03-15", "status": "Fair" }
+    },
+    {
+    "id": "C004",
+    "name": "Krystal Krawler",
+    "species": "Silicate Arthropod",
+    "originPlanet": "Xylar",
+    "diet": "Mineralvore",
+    "temperament": "Neutral",
+    "habitatId": "H001",
+    "acquisitionDate": "2077-03-05",
+    "specialAbilities": ["Crystal Armor", "Burrowing"],
+    "healthStatus": { "lastCheckup": "2077-03-20", "status": "Excellent" }
+    },
+    {
+    "id": "C005",
+    "name": "Ice Strider",
+    "species": "Cryo-Mammal",
+    "originPlanet": "Cryonia",
+    "diet": "Herbivore",
+    "temperament": "Docile",
+    "habitatId": "H004",
+    "acquisitionDate": "2077-03-10",
+    "specialAbilities": ["Thermal Resistance", "Ice Skating"],
+    "healthStatus": { "lastCheckup": "2077-03-25", "status": "Good"}
+    }
+],
+"staff": [
+    {
+    "employeeId": "S001",
+    "name": "Grunga",
+    "role": "Senior Keeper",
+    "species": "Gronk",
+    "assignedHabitatIds": ["H001", "H004"]
+    },
+    {
+    "employeeId": "S002",
+    "name": "Dr. Elara Vance",
+    "role": "Chief Veterinarian",
+    "species": "Human",
+    "assignedHabitatIds": []
+    },
+    {
+    "employeeId": "S003",
+    "name": "Bleep-Bloop",
+    "role": "Maintenance Droid",
+    "species": "Robotic Unit 7",
+    "assignedHabitatIds": ["H002", "H003"]
+    }
+],
+"upcomingEvents": [
+    {
+    "eventId": "E001",
+    "name": "Finblade Feeding Frenzy",
+    "type": "Feeding Show",
+    "scheduledTime": "2077-04-01T14:00:00Z",
+    "locationHabitatId": "H002",
+    "involvedCreatureIds": ["C002"]
+    },
+    {
+    "eventId": "E002",
+    "name": "Sky-Wisp Visibility Demo",
+    "type": "Educational",
+    "scheduledTime": "2077-04-05T11:00:00Z",
+    "locationHabitatId": "H003",
+    "involvedCreatureIds": ["C003"]
+    }
+]
+}
