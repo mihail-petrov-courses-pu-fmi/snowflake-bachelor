@@ -1,0 +1,59 @@
+[
+	{
+	  "productId": "SNW-WIDGET-001",
+	  "productName": "Snowflake Super Widget",
+	  "category": "Widgets",
+	  "isActive": true,
+	  "price": 199.99,
+	  "features": [
+		{"name": "Durability", "rating": 5},
+		{"name": "Speed", "rating": 4},
+		{"name": "Ease of Use", "rating": null}
+	  ],
+	  "dimensions": {
+		"length_cm": 25.5,
+		"width_cm": 10.0,
+		"height_cm": 5.2
+	  },
+	  "stock": {
+		"warehouse_A": 150,
+		"warehouse_B": 75
+	  },
+	  "notes": null,
+	  "internal-code": "WIDG-ALPHA"
+	},
+
+	{
+	  "productId": "SNW-GADGET-007",
+	  "productName": "Snowflake Power Gadget",
+	  "category": "Gadgets",
+	  "isActive": false,
+	  "price": 25.50,
+	  "features": [
+		{"name": "Power", "rating": 5},
+		{"name": "Portability", "rating": 3}
+	  ],
+	  "dimensions": {
+		"length_cm": 12.0,
+		"width_cm": 8.0,
+		"height_cm": 2.0
+	  },
+	  "stock": {
+		"warehouse_A": 0,
+		"warehouse_C": 200
+	  },
+	  "notes": "Discontinued model"
+	},
+
+	{
+	  "productId": "SNW-THING-003",
+	  "productName": "Snowflake Thingamajig",
+	  "category": "Thingamajigs",
+	  "isActive": true,
+	  "price": 75.00,
+	  "features": [], -- Empty array
+	  "dimensions": null, -- JSON null value for the object
+	  "stock": {}, -- Empty object
+	  "notes": "Requires assembly"
+	}
+]
