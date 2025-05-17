@@ -93,42 +93,15 @@
                 - Навигиране в JSON обект                
             </td>
         </tr>
-        <!-- <tr>
+        <!-- 
+        <tr>
             <td>
                 <code>среща 4</code>
-                <br>
-                <sub>📅09.05.2025</sub>
-            </td>
-            <td>
-                <a href="./@meets/meet-04/README.md">
-                    Работа с процедури и функции - част 1
-                </a>
-            </td>            
-            <td>
-            </td>
-        </tr>        
-        <tr>
-            <td>
-                <code>среща 5</code>
-                <br>
-                <sub>📅16.05.2025</sub>
-            </td>
-            <td>
-                <a href="./@meets/meet-05/README.md">
-                    Работа с процедури и функции - част 2
-                </a>
-            </td>            
-            <td>
-            </td>
-        </tr>                       
-        <tr>
-            <td>
-                <code>среща 6</code>
                 <br>
                 <sub>📅23.05.2025</sub>
             </td>
             <td>
-                <a href="./@meets/meet-06/README.md">
+                <a href="./@meets/meet-04/README.md">
                     ???
                 </a>
             </td>            
@@ -137,17 +110,17 @@
         </tr>
         <tr>
             <td>
-                <code>среща 7</code>
+                <code>среща 5</code>
                 <br>
                 <sub>📅30.05.2025</sub>
             </td>
             <td>
-                <a href="./@meets/meet-07/README.md">
+                <a href="./@meets/meet-05/README.md">
                     ???
                 </a>
             </td>            
             <td>
             </td>
-        </tr>         -->
+        </tr>-->
     <tbody>
 </table>
